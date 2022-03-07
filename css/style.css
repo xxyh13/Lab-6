@@ -1,3 +1,9 @@
+#navbar-container{
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
 #main-navbar{
   background-color: blue;
   overflow: hidden;
