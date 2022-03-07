@@ -1,9 +1,9 @@
-main-navbar#main-navbar{
+#main-navbar{
   background-color: blue;
   overflow: hidden;
 }
 
-nav#main-navbar ul{
+#main-navbar ul{
   padding: 0;
   margin: 0;
   left: 50%;
@@ -12,7 +12,7 @@ nav#main-navbar ul{
   list-style-type: none;
 }
 
-nav#main-navbar ul li{
+#main-navbar ul li{
   display: block;
   right: 50%
   position: relative;
@@ -20,13 +20,13 @@ nav#main-navbar ul li{
   list-style-type: none;
 }
 
-nav#main-navbar ul li a{
+#main-navbar ul li a{
   padding: 10px 20px;
   display: block;
   color: #fff;
   text-decoration: none;
 }
 
-nav#main-navbar ul li a:hover{
+#main-navbar ul li a:hover{
   background-color: #000;
 }
