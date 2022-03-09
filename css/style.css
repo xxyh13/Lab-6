@@ -24,7 +24,7 @@
 
 #main-navbar ul li{
   display: block;
-  right: 50%
+  right: 50%;
   position: relative;
   float: left;
   list-style-type: none;
