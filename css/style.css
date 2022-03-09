@@ -4,6 +4,10 @@
   float: left;
 }
 
+#onpage{
+  text-decoration: underline overline;
+}
+
 #main-navbar{
   background-color: blue;
   overflow: hidden;
@@ -35,4 +39,32 @@
 
 #main-navbar ul li a:hover{
   background-color: #000;
+}
+
+#sidebar-container ul {
+  padding: 0;
+}
+
+#sidebar-container ul li{
+  list-style-type: none;
+}
+
+#sidebar-container ul li a{
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#sidebar-container ul li a:hover{
+  background-color: #000;
+}
+
+#sidebar{
+  background-color: red;
+  position: fixed;
+  right: 0;
+  width: 20%;
+  height: 100%
 }
